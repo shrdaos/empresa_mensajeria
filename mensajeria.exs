@@ -1,4 +1,4 @@
-# Integrantes: escriban aquí los nombres de todas las personas del grupo.
+# Integrantes: Sharon Dahiana Ospina - Santiago Trujillo Cubides.
 # Ejecutar desde esta carpeta con:
 # elixir -r Util2.ex -r datos.exs -r validacion_mensajeria.exs -r calculos_mensajeria.exs -r liquidacion_mensajeria.exs -r reportes_mensajeria.exs -r comprobante_mensajeria.exs mensajeria.exs
 
