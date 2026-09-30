@@ -1,4 +1,4 @@
-# Integrantes: escriban aquí los nombres de todas las personas del grupo.
+# Integrantes: Sharon Dahiana Ospina - Santiago Trujillo Cubides.
 
 defmodule LiquidacionMensajeria do
   @tarifa_kilometro 2_500
