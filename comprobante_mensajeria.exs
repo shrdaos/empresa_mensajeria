@@ -20,6 +20,9 @@ defmodule ComprobanteMensajeria do
   end
 
   # Convierte el fin de entrada en texto vacío para poder continuar.
+  defp texto_o_vacio(:eof), do: ""
+
+  # Convierte el fin de entrada en texto vacío para poder continuar.
   defp texto_o_vacio(nil), do: ""
 
   # Convierte el fin de entrada en texto vacío para poder continuar.

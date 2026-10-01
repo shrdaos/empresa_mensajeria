@@ -1,7 +1,12 @@
 # Integrantes: Sharon Dahiana Ospina - Santiago Trujillo Cubides.
-# Ejecutar desde esta carpeta con:
-# elixir -r Util2.ex -r datos.exs -r validacion_mensajeria.exs -r calculos_mensajeria.exs -r liquidacion_mensajeria.exs -r reportes_mensajeria.exs -r comprobante_mensajeria.exs mensajeria.exs
-
+# Ejecutar desde esta carpeta con: elixir mensajeria.exs
+Code.require_file("Util2.ex")
+Code.require_file("datos.exs")
+Code.require_file("validacion_mensajeria.exs")
+Code.require_file("calculos_mensajeria.exs")
+Code.require_file("liquidacion_mensajeria.exs")
+Code.require_file("reportes_mensajeria.exs")
+Code.require_file("comprobante_mensajeria.exs")
 defmodule Mensajeria do
   @doc "Coordina la validación, los reportes y el comprobante al terminar."
   def ejecutar do

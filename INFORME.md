@@ -51,7 +51,7 @@ El programa mide con `:timer.tc/1` el tiempo empleado por `validar_lista/3` y lo
 Desde la carpeta del proyecto:
 
 ```sh
-elixir -r Util2.ex -r datos.exs -r validacion_mensajeria.exs -r calculos_mensajeria.exs -r liquidacion_mensajeria.exs -r reportes_mensajeria.exs -r comprobante_mensajeria.exs mensajeria.exs
+elixir mensajeria.exs
 ```
 
 El programa pide un servicio adicional (o Enter para omitirlo) y, al final, el código para el comprobante. No necesita Mix, dependencias externas ni archivos de entrada/salida.
